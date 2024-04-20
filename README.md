@@ -40,13 +40,13 @@ The scoreboard function updates the scoreboard with the current wins, losses, an
 
 Hit Button Functionality:
 
-The BJhit function handles the hit button's functionality, allowing the player to draw cards until they stand or bust.
+The Cardhit function handles the hit button's functionality, allowing the player to draw cards until they stand or bust.
 
 Deal Button Functionality:
 
-The BJdeal function resets the game state, allowing the player to start a new round.
+The Carddeal function resets the game state, allowing the player to start a new round.
 
-Stand Button Functionality: The BJstand function handles the stand button's functionality, allowing the dealer to draw cards until they reach a score of 16 or higher, 
+Stand Button Functionality: The Cardstand function handles the stand button's functionality, allowing the dealer to draw cards until they reach a score of 16 or higher, 
 
 then determines the winner.
 
